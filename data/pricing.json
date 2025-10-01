@@ -1,6 +1,6 @@
 {
-  "full_installation": 1500,
-  "dual_boot_installation": 2500,
-  "additional_drivers": 500,
-  "office_suite": 1000
+  "full_installation": 150,
+  "dual_boot_installation": 200,
+  "additional_drivers": 0,
+  "office_suite": 70
 }

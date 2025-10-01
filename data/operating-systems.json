@@ -7,49 +7,233 @@
     "is_active": true,
     "versions": [
       {"id": 1, "version": "Home", "is_active": true},
-      {"id": 2, "version": "Pro", "is_active": true}
+      {"id": 2, "version": "Pro", "is_active": true},
+      {"id": 3, "version": "Enterprise", "is_active": true},
+      {"id": 4, "version": "Education", "is_active": true}
     ]
   },
   {
     "id": 2,
-    "name": "Windows 10", 
+    "name": "Windows 10",
     "type": "windows",
-    "logo_url": "windows-logo.png", 
+    "logo_url": "windows-logo.png",
     "is_active": true,
     "versions": [
-      {"id": 3, "version": "Home", "is_active": true},
-      {"id": 4, "version": "Pro", "is_active": true}
+      {"id": 5, "version": "Home", "is_active": true},
+      {"id": 6, "version": "Pro", "is_active": true},
+      {"id": 7, "version": "Enterprise", "is_active": true},
+      {"id": 8, "version": "Education", "is_active": true}
     ]
   },
   {
     "id": 3,
-    "name": "Ubuntu",
+    "name": "Ubuntu Desktop",
     "type": "linux",
     "logo_url": "ubuntu-logo.png",
     "is_active": true,
     "versions": [
-      {"id": 5, "version": "22.04 LTS", "is_active": true},
-      {"id": 6, "version": "20.04 LTS", "is_active": true}
+      {"id": 9, "version": "24.04 LTS (Noble Numbat)", "is_active": true},
+      {"id": 10, "version": "23.10 (Mantic Minotaur)", "is_active": true},
+      {"id": 11, "version": "22.04 LTS (Jammy Jellyfish)", "is_active": true},
+      {"id": 12, "version": "20.04 LTS (Focal Fossa)", "is_active": true}
     ]
   },
   {
     "id": 4,
-    "name": "Kali Linux",
-    "type": "linux", 
-    "logo_url": "kali-logo.png",
+    "name": "Ubuntu Server",
+    "type": "linux",
+    "logo_url": "ubuntu-logo.png",
     "is_active": true,
     "versions": [
-      {"id": 7, "version": "2023.4", "is_active": true}
+      {"id": 13, "version": "24.04 LTS", "is_active": true},
+      {"id": 14, "version": "22.04 LTS", "is_active": true},
+      {"id": 15, "version": "20.04 LTS", "is_active": true}
     ]
   },
   {
     "id": 5,
-    "name": "Parrot OS",
+    "name": "Linux Mint",
     "type": "linux",
-    "logo_url": "parrot-logo.png", 
+    "logo_url": "linuxmint-logo.png",
     "is_active": true,
     "versions": [
-      {"id": 8, "version": "5.3", "is_active": true}
+      {"id": 16, "version": "21.3 (Virginia) Cinnamon", "is_active": true},
+      {"id": 17, "version": "21.3 (Virginia) MATE", "is_active": true},
+      {"id": 18, "version": "21.3 (Virginia) Xfce", "is_active": true},
+      {"id": 19, "version": "21.2 (Victoria) Cinnamon", "is_active": true}
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Manjaro Linux",
+    "type": "linux",
+    "logo_url": "manjaro-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 20, "version": "KDE Plasma", "is_active": true},
+      {"id": 21, "version": "GNOME", "is_active": true},
+      {"id": 22, "version": "Xfce", "is_active": true},
+      {"id": 23, "version": "Architect", "is_active": true}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Kali Linux",
+    "type": "linux",
+    "logo_url": "kali-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 24, "version": "2024.3 (Purple)", "is_active": true},
+      {"id": 25, "version": "2024.2 (Blue)", "is_active": true},
+      {"id": 26, "version": "2024.1", "is_active": true},
+      {"id": 27, "version": "2023.4", "is_active": true}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "CentOS",
+    "type": "linux",
+    "logo_url": "centos-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 28, "version": "Stream 9", "is_active": true},
+      {"id": 29, "version": "Stream 8", "is_active": true},
+      {"id": 30, "version": "7", "is_active": true}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Parrot OS",
+    "type": "linux",
+    "logo_url": "parrot-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 31, "version": "Security Edition", "is_active": true},
+      {"id": 32, "version": "Home Edition", "is_active": true},
+      {"id": 33, "version": "Architect Edition", "is_active": true}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Pop!_OS",
+    "type": "linux",
+    "logo_url": "popos-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 34, "version": "22.04 LTS", "is_active": true},
+      {"id": 35, "version": "22.04 LTS (NVIDIA)", "is_active": true}
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Fedora",
+    "type": "linux",
+    "logo_url": "fedora-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 36, "version": "Workstation 40", "is_active": true},
+      {"id": 37, "version": "Server 40", "is_active": true},
+      {"id": 38, "version": "KDE Spin", "is_active": true}
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Debian",
+    "type": "linux",
+    "logo_url": "debian-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 39, "version": "12 (Bookworm)", "is_active": true},
+      {"id": 40, "version": "11 (Bullseye)", "is_active": true},
+      {"id": 41, "version": "10 (Buster)", "is_active": true}
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Arch Linux",
+    "type": "linux",
+    "logo_url": "arch-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 42, "version": "Latest", "is_active": true}
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Zorin OS",
+    "type": "linux",
+    "logo_url": "zorin-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 43, "version": "Pro 17", "is_active": true},
+      {"id": 44, "version": "Core 17", "is_active": true},
+      {"id": 45, "version": "Lite 17", "is_active": true}
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Elementary OS",
+    "type": "linux",
+    "logo_url": "elementary-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 46, "version": "7.1 (Horus)", "is_active": true}
+    ]
+  },
+  {
+    "id": 16,
+    "name": "WSL (Windows Subsystem for Linux)",
+    "type": "linux",
+    "logo_url": "wsl-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 47, "version": "Ubuntu WSL", "is_active": true},
+      {"id": 48, "version": "Debian WSL", "is_active": true},
+      {"id": 49, "version": "Kali Linux WSL", "is_active": true}
+    ]
+  },
+  {
+    "id": 17,
+    "name": "macOS",
+    "type": "macos",
+    "logo_url": "macos-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 50, "version": "Sonoma (14.x)", "is_active": true},
+      {"id": 51, "version": "Ventura (13.x)", "is_active": true},
+      {"id": 52, "version": "Monterey (12.x)", "is_active": true},
+      {"id": 53, "version": "Big Sur (11.x)", "is_active": true}
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Garuda Linux",
+    "type": "linux",
+    "logo_url": "garuda-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 54, "version": "Dragonized Gaming", "is_active": true},
+      {"id": 55, "version": "KDE Dr460nized", "is_active": true}
+    ]
+  },
+  {
+    "id": 19,
+    "name": "MX Linux",
+    "type": "linux",
+    "logo_url": "mxlinux-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 56, "version": "23.1", "is_active": true}
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Deepin",
+    "type": "linux",
+    "logo_url": "deepin-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 57, "version": "23", "is_active": true}
     ]
   }
 ]
