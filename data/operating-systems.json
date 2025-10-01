@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Windows 11",
+    "type": "windows",
+    "logo_url": "windows-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 1, "version": "Home", "is_active": true},
+      {"id": 2, "version": "Pro", "is_active": true}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Windows 10", 
+    "type": "windows",
+    "logo_url": "windows-logo.png", 
+    "is_active": true,
+    "versions": [
+      {"id": 3, "version": "Home", "is_active": true},
+      {"id": 4, "version": "Pro", "is_active": true}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ubuntu",
+    "type": "linux",
+    "logo_url": "ubuntu-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 5, "version": "22.04 LTS", "is_active": true},
+      {"id": 6, "version": "20.04 LTS", "is_active": true}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Kali Linux",
+    "type": "linux", 
+    "logo_url": "kali-logo.png",
+    "is_active": true,
+    "versions": [
+      {"id": 7, "version": "2023.4", "is_active": true}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Parrot OS",
+    "type": "linux",
+    "logo_url": "parrot-logo.png", 
+    "is_active": true,
+    "versions": [
+      {"id": 8, "version": "5.3", "is_active": true}
+    ]
+  }
+]
