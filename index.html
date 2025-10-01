@@ -46,50 +46,51 @@
 
 
     <!-- Header -->
-    <header class="h-18 bg-gradient-to-r from-purple-400 to-pink-600 shadow-sm border-b">
-        <div class="container mx-auto px-4 py-4">
-            <div class="flex justify-between items-center">
-                <!-- Logo -->
-                <div class="flex items-center space-x-3">
-                    <div class="bg-black-500 text-white p-2 rounded-lg">
-                        <i class="fas fa-laptop-code text-xl"></i>
-                    </div>
-                    <div>
-                      <h1 class="text-3xl font-bold bg-gradient-to-r from-yellow-300 via-yellow-400 to-green-400 bg-clip-text text-transparent">
-                      TechServe
-                      </h1>
-                    </div>
+        <!-- Header -->
+<header class="h-18 bg-gradient-to-r from-purple-400 to-pink-600 shadow-sm border-b">
+    <div class="container mx-auto px-4 py-4">
+        <div class="flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center space-x-3">
+                <div class="bg-black-500 text-white p-2 rounded-lg">
+                    <i class="fas fa-laptop-code text-xl"></i>
                 </div>
+                <div>
+                  <h1 class="text-3xl font-bold bg-gradient-to-r from-yellow-300 via-yellow-400 to-green-400 bg-clip-text text-transparent">
+                  TechServe
+                  </h1>
+                </div>
+            </div>
 
-                <!-- Cart and Navigation -->
-                <div class="flex items-center space-x-4">
-                    <!-- Cart -->
-                    <div class="relative">
-                        <button id="cart-toggle" class="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-colors relative">
-                            <i class="fas fa-shopping-cart"></i>
-                            <span id="cart-count" class="absolute -top-1 -right-1 bg-red-500 text-white rounded-full w-5 h-5 text-xs flex items-center justify-center hidden">0</span>
-                        </button>
-                        
-                        <!-- Cart Dropdown -->
-                        <div id="cart-dropdown" class="hidden absolute right-0 mt-2 w-80 bg-white rounded-lg shadow-xl z-50 border border-gray-200">
-                            <div class="p-4 border-b border-gray-200">
-                                <h3 class="font-semibold text-gray-800">Service Cart</h3>
-                                <p class="text-sm text-gray-600">Total: <span id="cart-total">KSh 0</span></p>
-                            </div>
-                            <div id="cart-items" class="max-h-64 overflow-y-auto">
-                                <!-- Cart items will be rendered here -->
-                            </div>
+            <!-- Navigation Buttons and Cart -->
+            <div class="flex items-center space-x-4">
+                <!-- All Services Button -->
+                <button id="view-services-btn" class="bg-green-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-700 transition-colors">
+                    <i class="fas fa-tools mr-2"></i>All Services
+                </button>
+                
+                <!-- Cart -->
+                <div class="relative">
+                    <button id="cart-toggle" class="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-colors relative">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cart-count" class="absolute -top-1 -right-1 bg-red-500 text-white rounded-full w-5 h-5 text-xs flex items-center justify-center hidden">0</span>
+                    </button>
+                    
+                    <!-- Cart Dropdown -->
+                    <div id="cart-dropdown" class="hidden absolute right-0 mt-2 w-80 bg-white rounded-lg shadow-xl z-50 border border-gray-200">
+                        <div class="p-4 border-b border-gray-200">
+                            <h3 class="font-semibold text-gray-800">Service Cart</h3>
+                            <p class="text-sm text-gray-600">Total: <span id="cart-total">KSh 0</span></p>
+                        </div>
+                        <div id="cart-items" class="max-h-64 overflow-y-auto">
+                            <!-- Cart items will be rendered here -->
                         </div>
                     </div>
-
-                    <!-- Navigation Buttons -->
-                    <button id="view-services-btn" class="bg-green-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-700 transition-colors">
-                        <i class="fas fa-tools mr-2"></i>All Services
-                    </button>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-8">
